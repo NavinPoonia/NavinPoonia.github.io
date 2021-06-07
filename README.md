@@ -6,7 +6,7 @@ Visit The Below Link to Check The RESPONSIVE Webpage(Both Desktop Site as Well A
 https://navinpoonia.github.io/Mapbox_API/
 
 
-Making a RESPONSIVE Food Website Design Using HTMl and CSS
+Making a RESPONSIVE Food Website Design Using HTML and CSS
 
 This Was My First Frontend Design During Web Developement
 
