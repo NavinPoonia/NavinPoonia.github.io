@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" media="screen and (max-width:1232px)" href="phone.css">
+    <link href='https://api.mapbox.com/mapbox-gl-js/v2.1.1/mapbox-gl.css' rel='stylesheet' />
+    <link rel="stylesheet" href="style.css">
+    <title>CORONA CASES</title>
+        
+</head>
+
+<body>
+    <section>
+        <div>
+            <h1 class="header">CORONA CASES ON WORLD MAP</h1>
+        </div>
+        <div id='map' style='width: 80vw; height: 80vh;'></div>
+        <h1 class="info">THIS MAP SHOWS NUMBER OF PEOPLE INFECTED</h1>
+        <div class="flex-container">
+            <div class="color">
+                <div style="background-color: rgba(17, 17, 17, 0.973); border-radius: 25px;"><h3 style="color: white;">0-25</h3></div>
+            </div>
+            <div class="color">
+                <div style="background-color: rgba(46, 46, 46, 0.75); border-radius: 25px;"><h3 style="color: white;">25-75</h3></div>
+            </div>
+            <div class="color">
+                <div style="border-radius: 25px; background-color: brown;"><h3 style="color: white;">75-150</h3></div>
+            </div>
+            <div class="color">
+                <div style="background-color: rgba(255, 0, 0, 0.75); border-radius: 25px;""><h4 style="color: white;">150-255</h3></div>
+            </div>
+            <div class="color">
+                <div style="background-color: red; border-radius: 25px;"><h3 style="color: white; ">>255</h3></div>
+            </div>
+        </div>
+    </section>
+</body>
+
+
+<script src='https://api.mapbox.com/mapbox-gl-js/v2.1.1/mapbox-gl.js'></script>
+<script>
+    mapboxgl.accessToken = 'pk.eyJ1IjoibmF2aW5wb29uaWE3MzcyIiwiYSI6ImNrbjdtMHEwMDA2MXYycXBpbGZ5OTlvcmUifQ.jfrSteLplq9TJl-ESUTWqQ';
+    var map = new mapboxgl.Map({
+        container: 'map',
+        style: 'mapbox://styles/mapbox/streets-v11',
+        // style: 'mapbox://styles/mapbox/dark-v10' //theme : "dark-v10"
+        center: [10, 0],
+        zoom: 1.5
+    });
+</script>
+
+<script src="index.js"></script>
+
+</html>

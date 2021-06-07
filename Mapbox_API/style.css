@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    padding: 25px;
+    text-align: center;
+    background: rgba(255, 251, 0);
+    color: rgb(37, 34, 34);
+    font-size: 30px;
+}
+
+.info{
+    padding: 25px;
+    text-align: center;
+    font-size: 30px;
+}
+
+#map {
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 50px;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+}
+
+.flex-container>div {
+    width: 150px;
+    margin: 15px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+}
