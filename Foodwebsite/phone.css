@@ -1,0 +1,77 @@
+#navbar{
+    flex-direction: column;
+    height: 175px;
+    align-items: center;
+}
+#navbar ul li{
+    font-size: 15px;
+    text-align: center;
+    list-style: none;
+}
+.ourser h1{
+    font-size: 30px;
+}
+.box img{
+    height: 150px;
+    width: 150px;
+}
+.discover{
+    font-size: 15px;
+}
+#spe{
+    font-size: 30px;
+}
+.h1{
+    font-size: 25px;
+}
+#flex{
+    flex-direction: column;
+}
+.special{
+    flex-direction: column;
+}
+#cot{
+    flex-direction: column;
+}
+.l{
+    height: 300px;
+    width: 150px;
+    margin-right: 50px;
+}
+#contact h1{
+    font-size: 30px;
+}
+.m{
+    height: 150px;
+    width: 100px;
+    margin-right:auto;
+}
+.so{
+    margin: 5px;
+    height: 20px;
+    width: 20px;
+}
+#cot form{
+    height: 400px;
+    width: 60%;
+    margin: auto;
+    margin-bottom: 50px;
+}
+#social{
+    height: 120px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+ul li{
+    font-size: 10px;
+}
+ul{
+    padding-inline-start: 10px;
+}
+.left{
+    margin:0px 5px;
+    padding: 5px;
+}
+.foot{
+    font-size: 10px;
+}
