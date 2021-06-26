@@ -3,7 +3,7 @@
 
       Visit The Below Link to Check The RESPONSIVE Webpage(Both Desktop Site as Well As Smart Phones)
 
-      https://navinpoonia.github.io/Mapbox_API/
+      https://navinpoonia.github.io/Plotting%20Corona%20Cases%20on%20World%20Map/
 
 
 2) Making a RESPONSIVE Food Website Design Using HTML and CSS
