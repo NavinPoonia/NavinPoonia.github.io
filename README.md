@@ -20,3 +20,6 @@
       
       https://navinpoonia.github.io/Weather/
 
+5) Creating A Notes App Using JavaScript And Bootstrap
+
+      https://navinpoonia.github.io/Magic%20Notes/
