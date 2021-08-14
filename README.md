@@ -16,7 +16,7 @@
   
 4) Making a Weather Application Using OpenWeahterMap API (Responsive)
       
-      limk - https://navinpoonia.github.io/Weather/
+      link - https://navinpoonia.github.io/Weather/
 
 5) Creating A Notes App Using JavaScript And Bootstrap (Responsive)
 
