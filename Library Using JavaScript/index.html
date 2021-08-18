@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Millionaire's Library</title>
+</head>
+
+<body>
+    <nav id="tempnav" class="sticky-top">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-success sticky-top">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Millionaire's Library</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
+                    aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarScroll">
+                    <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex">
+                        <input class="form-control me-2 searchTxt" type="search" placeholder="Search"
+                            aria-label="Search">
+                    </form>
+                </div>
+            </div>
+        </nav>
+        <div id="message"></div>
+    </nav>
+    
+    <div class="conatiner" style="margin: 50px auto;width: 75%;max-width: 600px;min-width: 250px;">
+        <h1 class="my-4">Millionaire's Library</h1>
+        <form id="libraryForm">
+            <div class="row mb-3">
+                <label for="bookName" class="col-sm-2 col-form-label">Name</label>
+                <div class="col-sm-10">
+                    <input type="text" class="form-control" id="bookName" placeholder="Book Name">
+                </div>
+            </div>
+            <div class="row mb-3">
+                <label for="author" class="col-sm-2 col-form-label">Author</label>
+                <div class="col-sm-10">
+                    <input type="text" class="form-control" id="author" placeholder="Author">
+                </div>
+            </div>
+            <fieldset class="row mb-3">
+                <legend class="col-form-label col-sm-2 pt-0">Category</legend>
+                <div class="col-sm-10">
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1"
+                            value="Investing" checked>
+                        <label class="form-check-label" for="gridRadios1">
+                            Investing
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2"
+                            value="Tax and Trade">
+                        <label class="form-check-label" for="gridRadios2">
+                            Tax and Trade
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios3"
+                            value="Financial Intelligence">
+                        <label class="form-check-label" for="gridRadios3">
+                            Financial Intelligence
+                        </label>
+                    </div>
+                    <div class="form-check disabled">
+                        <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios4"
+                            value="Business">
+                        <label class="form-check-label" for="gridRadios4">
+                            Business
+                        </label>
+                    </div>
+                </div>
+            </fieldset>
+            <button type="submit" class="btn btn-primary">Add Book</button>
+        </form>
+    </div>
+    <h1 style="margin: 30px auto; width: max-content;">Your Books</h1>
+    <div class="input-group" style="max-width: 40%;min-width: 280px; margin: auto;">
+        <span class="input-group-text">Search</span>
+        <input type="text" aria-label="First name" class="form-control searchTxt" placeholder="Search By book, author, category" style="font-style: italic;">
+    </div>
+    <div id="table" style="margin: 50px auto;width: 60%;min-width: 250px;" class="table-wrapper-scroll-y my-custom-scrollbar" >
+        <table class="table table-bordered table-striped mb-0">
+            <thead>
+                <tr>
+                    <th scope="col"></th>
+                    <th scope="col">Book Name</th>
+                    <th scope="col">Author</th>
+                    <th scope="col">Category</th>
+                    <th scope="col">Action</th>
+                </tr>
+            </thead>
+            <tbody id="tableBody"></tbody>
+        </table>
+    </div>
+    <script src="index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
