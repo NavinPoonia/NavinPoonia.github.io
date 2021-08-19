@@ -21,3 +21,7 @@
 5) Creating A Notes App Using JavaScript And Bootstrap (Responsive)
 
       link -https://navinpoonia.github.io/Magic%20Notes/
+      
+6) Creating A Library Using JavaScript And Bootstrap (Responsive)
+      
+      link - https://navinpoonia.github.io/Library%20Using%20JavaScript/
