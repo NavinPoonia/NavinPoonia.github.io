@@ -29,3 +29,7 @@
 7) Creating A Postman API Clone Using JavaScript And Bootstrap
 
       link - https://navinpoonia.github.io/Postman%20API%20Clone/
+      
+8) Form Validation Using Regular Expressions In JavaScript
+
+      link - https://navinpoonia.github.io/Form%20Validation/
