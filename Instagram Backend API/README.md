@@ -1,7 +1,7 @@
-# Postman-API-Clone
+# Instagram Backend API
 Creating A Postman API Clone Using JavaScript And Bootstrap
 
-link - https://navinpoonia.github.io/Postman%20API%20Clone/
+link - NavinPoonia.github.io/Instagram Backend API/
 
 1. Making HTTP 'GET' And 'POST' Request.
 
