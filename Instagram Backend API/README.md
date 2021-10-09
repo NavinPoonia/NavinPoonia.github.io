@@ -1,7 +1,7 @@
 # Instagram Backend API
 Creating A Instagram Backend API Using JavaScript And Bootstrap
 
-link - NavinPoonia.github.io/Instagram Backend API/
+link - https://navinpoonia.github.io/Instagram%20Backend%20API/
 
 1. Making HTTP 'GET' And 'POST' Request.
 
