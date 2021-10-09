@@ -1,5 +1,5 @@
 # Instagram Backend API
-Creating A Postman API Clone Using JavaScript And Bootstrap
+Creating A Instagram Backend API Using JavaScript And Bootstrap
 
 link - NavinPoonia.github.io/Instagram Backend API/
 
